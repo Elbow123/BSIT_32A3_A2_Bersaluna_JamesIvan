@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    background: url('bgimage.gif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.task-done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.priority-high {
+    border-left: 5px solid red;
+}
+
+.priority-medium {
+    border-left: 5px solid orange;
+}
+
+.priority-low {
+    border-left: 5px solid green;
+}
+
+.overdue {
+    background-color: #ffcccc !important;
+}
